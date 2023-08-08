@@ -1,0 +1,150 @@
+.informacoes__perfil {
+    font-family: var(--fonte-primaria);
+    width: 780px;
+    margin: 24px 32px 8px 154px;
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+}
+
+.informacoes__perfil-capa {
+    width: 100vw;
+
+}
+
+.informacoes__perfil__conteudo {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes__perfil__conteudo-nome {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--texto-primario);
+    padding-top: 56px;
+}
+
+.informacoes__perfil__conteudo-foto {
+    width: 160px;
+    border: 4px solid var(--fundo-card);
+    border-radius: 100%;
+    position:absolute;
+    top: 194px;
+    left: 178px
+}
+.informacoes__perfil__conteudo-descricao {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--texto-primario);
+    padding-bottom: 4px;
+}
+
+.informacoes__perfil__conteudo-falasobre {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 4px;
+}
+
+.informacoes__perfil__conteudo__endereco, .informacoes__perfil__conteudo__seguidores {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-bottom: 4px;
+
+}
+
+.informacoes__perfil__conteudo__endereco-cinza {
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.informacoes__perfil__conteudo__endereco-ponto {
+    color: var(--texto-secundario);
+    width: 2px;
+}
+.informacoes__perfil__conteudo__endereco-azul {
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.informacoes__perfil__conteudo__seguidores-azul {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--azul);
+}
+
+.informacoes__perfil__conteudo__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    padding-bottom: 24px;
+}
+
+.informacoes__perfil__conteudo__botoes a {
+    border-radius: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.informacoes__perfil__conteudo__botoes-azul {
+    background-color: var(--azul);
+    color: var(--preto);
+    padding: 6px 29px;
+
+}
+
+.informacoes__perfil__conteudo__botoes-transparente {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--azul);
+    padding: 6px 49px;
+    
+}
+
+.informacoes__perfil__conteudo__direito {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 129px;
+    padding-top: 56px;
+}
+
+.informacoes__perfil__conteudo__direito-empresa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.informacoes__perfil__conteudo__direito-empresa-nome {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--texto-primario);
+}
+
+.informacoes__perfil__conteudo__direito-empresa-img {
+    width: 32px;
+}
+
+.informacoes__perfil__conteudo__direito-instituicao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}

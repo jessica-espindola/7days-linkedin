@@ -1,13 +1,17 @@
 @import url(css/header.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(css/informacoes-perfil.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
 
 :root {
     --fundo-header: #1B2226;
     --fundo-pagina: #000000;
+    --fundo-card: #1B2226;
     --texto-primario: #FFFFFFE5;
     --texto-secundario: #FFFFFF99;
     --fonte-primaria: 'Roboto';
     --input: #38434F;
+    --azul: #70B5F9;
+    --preto: #000000;
 }
 
 body {
