@@ -1,0 +1,16 @@
+@import url(css/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --fundo-header: #1B2226;
+    --fundo-pagina: #000000;
+    --texto-primario: #FFFFFFE5;
+    --texto-secundario: #FFFFFF99;
+    --fonte-primaria: 'Roboto';
+    --input: #38434F;
+}
+
+body {
+    background-color: var(--fundo-pagina);
+    font-weight: 400;
+}

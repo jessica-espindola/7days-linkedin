@@ -1,0 +1,70 @@
+.header__container {
+    background-color: var(--fundo-header);
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__container-esquerdo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 9px 0px;
+}
+.header__container-esquerdo-input {
+    background-color: var(--input);
+    color: var(--texto-primario);
+    border-radius: 4px;
+    border: none;
+    width: 280px;
+    padding-left: 40px;
+    background-image: url(../assets/Desktop/icone-busca.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 8px;
+}
+.header__container-esquerdo-input::placeholder {
+    color: var(--texto-primario);
+    font-family: var(--fonte-primaria);
+    
+}
+
+.header__container-direito {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__container-direito-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+
+.header__container-direito a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--texto-primario);
+    font-family: var(--fonte-primaria);
+    font-size: 12px;
+}
+
+.icone-header {
+    width: 24px;
+}
+
+.header__container-direito-solucoes {
+    border-left: 1px solid var(--texto-secundario);
+    margin-left: 16.64px;
+    padding: 7px 0px;
+}
+
+.header__container-direito-solucoes h2 {
+    width: 80px;
+    text-align: center;
+    padding-left: 4px;
+}
