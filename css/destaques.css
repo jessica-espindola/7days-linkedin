@@ -1,0 +1,68 @@
+.informacoes__destaque {
+    background-color: var(--fundo-card);
+    font-family: var(--fonte-primaria);
+    width: 780px;
+    border-radius: 16px;
+    margin-left: 153px;
+}
+.informacoes__destaque-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--texto-primario);
+    padding: 16px 660px 8px 24px;
+}
+.informacoes__destaque__publicacoes {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-left: 16px;
+    padding-bottom: 22px;
+}
+
+.informacoes__destaque__publicacoes__item {
+    border: 1px solid #FFFFFF99;
+    border-radius: 7px;
+}
+
+.informacoes__destaque__publicacoes__item-titulo {
+    font-size: 12px;
+    color: var(--texto-secundario);
+    padding: 12px 164px 0px 14px;
+}
+
+.informacoes__destaque__publicacoes__item-legenda {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 18px 4px 14px;
+    color: var(--texto-primario);   
+}
+
+.informacoes__destaque__publicacoes__item-img {
+    width: 236px;
+    height: 152px;
+    object-fit: cover;
+}
+
+.informacoes__destaque__publicacoes__item-secao-comentario {
+    display: flex;
+    flex-direction: row;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    line-height: 20px;
+    gap: 96px;
+    align-items: center;
+}
+
+.informacoes__destaque__publicacoes__item-secao-comentario-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.informacoes__destaque__publicacoes__item-secao-comentario-esquerdo-img {
+    width: 32px;
+    height: 16px;
+    object-fit: cover;
+    margin: 6px 0px 6px 4px;
+}
