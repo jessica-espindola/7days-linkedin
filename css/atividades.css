@@ -1,0 +1,106 @@
+.informacoes__atividades {
+    width: 780px;
+    background-color: var(--fundo-card);
+    margin-left: 154px;
+    margin-top: 14px;
+    border-radius: 16px;
+    font-family: var(--fonte-primaria);
+}
+
+.informacoes__atividades-titulo, .informacoes__atividades-seguidores, .informacoes__atividades__conteudo {
+    margin: 0px 24px;
+
+
+}
+
+.informacoes__atividades-titulo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    color: var(--texto-primario);
+
+}
+
+.informacoes__atividades-seguidores {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--azul);
+    margin-bottom: 13px;
+
+}
+.informacoes__atividades__conteudo__autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+.informacoes__atividades__conteudo__autor-texto {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--texto-secundario);
+    padding-top: 6px;
+}
+
+.informacoes__atividades__conteudo__descricao {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin: 8px 0px;
+    align-items: center;
+
+}
+
+.informacoes__atividades__conteudo__descricao-img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+
+}
+
+.informacoes__atividades__conteudo__descricao-texto {
+    text-align: justify;
+    color: var(--texto-primario);
+    padding-top: 8px;
+
+}
+.informacoes__atividades__conteudo__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--texto-secundario);
+    border-bottom: 1px solid #FFFFFF99;
+    padding-bottom: 8px;
+   
+
+}
+.informacoes__atividades__conteudo__item-secao-comentario-esquerdo {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.informacoes__atividades__conteudo__item-secao-comentario-esquerdo-curtidas, .informacoes__destaque__publicacoes__item-secao-comentario-direito {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.informacoes__atividades__conteudo__todasatividades {
+    border-top: 1px solid #FFFFFF99;
+    width: 100%;
+}
+
+.informacoes__atividades__conteudo__todasatividades-texto {
+    padding: 8px 0px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--texto-secundario);
+}
+
+.informacoes__atividades__conteudo__item-secao-comentario-esquerdo-img {
+    width: 32px;
+    height: 16px;
+}

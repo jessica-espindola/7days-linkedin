@@ -60,9 +60,11 @@
     gap: 4px;
 
 }
+
 .informacoes__destaque__publicacoes__item-secao-comentario-esquerdo-img {
     width: 32px;
     height: 16px;
     object-fit: cover;
     margin: 6px 0px 6px 4px;
+
 }
