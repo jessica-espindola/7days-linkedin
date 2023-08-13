@@ -7,7 +7,7 @@
     font-family: var(--fonte-primaria);
 }
 
-.informacoes__atividades-titulo, .informacoes__atividades-seguidores, .informacoes__atividades__conteudo {
+.informacoes__atividades-titulo, .informacoes__atividades-seguidores, .informacoes__atividades__conteudo, .informacoes__atividades__conteudo-sembarra {
     margin: 0px 24px;
 
 
@@ -72,8 +72,15 @@
     color: var(--texto-secundario);
     border-bottom: 1px solid #FFFFFF99;
     padding-bottom: 8px;
-   
 
+}
+
+.informacoes__atividades__conteudo__item-sembarra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--texto-secundario);
+    padding-bottom: 8px;
 }
 .informacoes__atividades__conteudo__item-secao-comentario-esquerdo {
     display: flex;
@@ -103,4 +110,10 @@
 .informacoes__atividades__conteudo__item-secao-comentario-esquerdo-img {
     width: 32px;
     height: 16px;
+}
+
+.informacoes__atividades__conteudo-sembarra {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
 }
