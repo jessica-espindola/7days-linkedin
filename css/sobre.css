@@ -1,0 +1,28 @@
+.informacoes__sobre {
+    background-color: var(--fundo-card);
+    margin-left: 154px;
+    margin-top: 8px;
+    width: 780px;
+    border-radius: 16px;
+}
+
+.informacoes__sobre-titulo {
+    padding: 16px 24px 8px 24px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--texto-primario);
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+
+
+}
+
+.informacoes__sobre-texto {
+    padding: 0px 24px 16px 24px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--texto-primario);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}

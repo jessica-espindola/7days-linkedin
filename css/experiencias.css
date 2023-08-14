@@ -1,0 +1,113 @@
+.informacoes__experiencias {
+    width: 780px;
+    background-color: var(--fundo-card);
+    margin-left: 154px;
+    margin-top: 8px;
+    border-radius: 16px;
+}
+
+.informacoes__experiencias-titulo {
+    padding: 16px 0px 8px 24px;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--texto-primario);
+}
+
+.informacoes__experiencias__empresa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.informacoes__experiencias__empresa-img {
+    width: 48px;
+    margin-left: 24px;
+    margin-right: 8px;
+}
+
+.informacoes__experiencias__empresa__detalhado {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.informacoes__experiencias__empresa__detalhado-nome {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--texto-primario);
+
+}
+
+.informacoes__experiencias__empresa__detalhado-tempo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+}
+
+.informacoes__experiencias__descricao {
+    padding-bottom: 6px;
+}
+.informacoes__experiencias__descricao__cargo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+    align-items: center;
+}
+
+.informacoes__experiencias__descricao__cargo-topico {
+    width: 9px;
+    height: 9px;
+    margin-left: 44px;
+    margin-right: 28px;
+}
+
+.informacoes__experiencias__descricao__cargo-nome {
+    color: var(--texto-primario);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.informacoes__experiencias__descricao__atividades {
+    color: var(--texto-primario);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--texto-secundario);
+    margin-left: 48.5px;
+    margin-bottom: 4px;
+    
+}
+
+.informacoes__experiencias__descricao__atividades-periodo {
+    display: flex;
+    gap: 4px;
+}
+
+.informacoes__experiencias__descricao__atividades-tempo, .informacoes__experiencias__descricao__atividades-periodo, .informacoes__experiencias__descricao__atividades-localidade {
+    padding-left: 33px;
+}
+
+.informacoes__experiencias__descricao__atividades-localidade {
+    margin-bottom: 4px;
+}
+
+.informacoes__experiencias__descricao__atividades-tempo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.informacoes__experiencias__descricao__atividades-periodo, .informacoes__experiencias__descricao__atividades-localidade {
+    font-family: var(--fonte-primaria);
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
