@@ -1,0 +1,67 @@
+.informacoes__academicas {
+    width: 780px;
+    background-color: var(--fundo-card);
+    margin-left: 154px;
+    margin-top: 8px;
+    border-radius: 16px;
+
+}
+.informacoes__academicas-titulo {
+    margin: 0px 0px 8px 24px;
+    font-family: var(--fonte-primaria);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--texto-primario);
+    padding: 9px  0px;
+}
+.informacoes__academicas__primeiraGraduacao, .informacoes__academicas__segundaGraduacao {
+    margin: 0px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.informacoes__academicas__primeiraGraduacao {
+    border-bottom: 1px solid var(--texto-secundario);
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+}
+
+.configurar__espacamento {
+    padding-bottom: 9px;
+}
+.informacoes__academicas__primeiraGraduacao-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+
+}
+.informacoes__academicas__primeiraGraduacao-conteudo {
+    padding-left: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.informacoes__academicas__primeiraGraduacao-ies {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--texto-primario);
+}
+.informacoes__academicas__primeiraGraduacao-nome {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--texto-primario);
+}
+.informacoes__academicas__primeiraGraduacao-periodo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+}

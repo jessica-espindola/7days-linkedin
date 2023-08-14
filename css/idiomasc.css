@@ -1,0 +1,38 @@
+.informacoes__idiomas {
+    width: 780px;
+    background-color: var(--fundo-card);
+    margin-left: 154px;
+    margin-top: 8px;
+    border-radius: 16px;
+    font-family: var(--fonte-primaria);
+}
+
+.informacoes__idiomas-titulo {
+    margin-left: 24px;
+    padding: 16px 0px 8px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--texto-primario);
+
+}
+
+.informacoes__idiomas__conteudo {
+    margin: 0px 24px;
+}
+
+.divisoria {
+    border-bottom: 1px solid var(--texto-secundario);
+}
+.informacoes__idiomas__conteudo-idioma {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--texto-primario);
+}
+.informacoes__idiomas__conteudo-nivel {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--texto-secundario);
+}
