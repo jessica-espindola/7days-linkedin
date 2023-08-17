@@ -1,0 +1,71 @@
+.informacoes__conheca {
+    position: absolute;
+    width: 320px;
+    background-color: var(--fundo-card);
+    left: 966px;
+    top: 630px;
+    margin-top: 12px;
+    border-radius: 16px;
+    font-family: var(--fonte-secundaria);
+    
+}
+
+.informacoes__conheca-titulo {
+    padding: 16px 0px 16px 16px;
+    color: var(--texto-primario);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.informacoes__conheca__conteudo {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0px 16px;
+
+}
+
+.informacoes__conheca__conteudo-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+
+}
+
+.informacoes__conheca__texto {
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes__conheca__texto-nome {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: var(--texto-primario);
+    padding-bottom: 1px;
+
+}
+
+.informacoes__conheca__texto-cargo {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: var(--texto-secundario);
+    padding-bottom: 8px;
+
+}
+
+.informacoes__conheca__texto-btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: var(--texto-primario);
+    background-color: transparent;
+    border: 1px solid var(--texto-primario);
+    border-radius: 16px;
+    padding: 7px 16px;
+    width: 99px;
+
+}

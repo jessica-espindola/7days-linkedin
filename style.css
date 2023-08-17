@@ -6,7 +6,10 @@
 @import url(css/experiencias.css);
 @import url(css/formacao-academica.css);
 @import url(css/idiomasc.css);
+@import url(css/pessoas-tambem-viram.css);
+@import url(css/pessoas-conheca.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
     --fundo-header: #1B2226;
@@ -15,6 +18,7 @@
     --texto-primario: #FFFFFFE5;
     --texto-secundario: #FFFFFF99;
     --fonte-primaria: 'Roboto';
+    --fonte-secundaria: 'Inter';
     --input: #38434F;
     --azul: #70B5F9;
     --preto: #000000;

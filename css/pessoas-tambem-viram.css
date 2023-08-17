@@ -1,0 +1,62 @@
+.informacoes__visto {
+    width: 320px;
+    background-color: var(--fundo-card);
+    position: absolute;
+    left: 966px;
+    top: 76px;
+    border-radius: 16px;
+    font-family: var(--fonte-secundaria);
+}
+
+.informacoes__visto-titulo {
+    color: var(--texto-primario);
+    margin-left: 16px;
+    padding: 16px 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.informacoes__visto__conteudo {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes__visto__conteudo-img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.informacoes__visto__conteudo__texto {
+    padding-left: 6px;
+    padding-bottom: 16px;
+}
+
+.informacoes__visto__conteudo__texto-nome {
+    font-weight: 700;
+    color: var(--texto-primario);
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.informacoes__visto__conteudo__texto-cargo {
+    font-weight: 400;
+    color: var(--texto-secundario);
+    font-size: 12px;
+    line-height: 14.52px;
+    padding-bottom: 7px;
+}
+
+.informacoes__visto__conteudo__texto-btn {
+    color: var(--texto-primario);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.94px;
+    background-color: transparent;
+    border: 1px solid var(--texto-primario);
+    padding: 7px 16px;
+    border-radius: 16px;
+
+}
